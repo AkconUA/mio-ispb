@@ -1,0 +1,25 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Тимчасові файли Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Тимчасові файли Node.js
+node_modules/
+npm-debug.log
+
+# Тимчасові вихідні файли (не зберігати в репо)
+charts/
+outputs/
+*.log
+
+# Але зберігати шаблони та документи
+!templates/
+!docs/
+!skill/
