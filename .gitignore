@@ -23,3 +23,7 @@ outputs/
 !templates/
 !docs/
 !skill/
+
+# Тимчасові файли генерації звіту
+report_temp.docx
+instruction_temp.docx
