@@ -1,29 +1,29 @@
-# Системні файли
+# Системні
 .DS_Store
 Thumbs.db
 *.tmp
 *.bak
 
-# Тимчасові файли Python
+# Python
 __pycache__/
 *.pyc
 *.pyo
-.ipynb_checkpoints/
 
-# Тимчасові файли Node.js
+# Node.js
 node_modules/
 npm-debug.log
 
-# Тимчасові вихідні файли (не зберігати в репо)
+# Тимчасові файли LibreOffice
+report_temp.docx
+*_temp.docx
+
+# Вихідні файли
 charts/
 outputs/
+/tmp/
 *.log
 
-# Але зберігати шаблони та документи
-!templates/
-!docs/
+# Зберігати
 !skill/
-
-# Тимчасові файли генерації звіту
-report_temp.docx
-instruction_temp.docx
+!scripts/
+!docs/
